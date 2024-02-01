@@ -10,3 +10,7 @@
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+}

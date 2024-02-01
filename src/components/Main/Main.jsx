@@ -1,5 +1,7 @@
 import React from 'react'
-import Office from '../../assets/images/main_image.png'
+import './Main.css'
+// import Office from '../../assets/images/main_image.png'
+import Freelance from '../../assets/images/freelance-girl.png'
 import Square from '../../assets/icons/icons8-square-48.png'
 import Notion from '../../assets/icons/icons8-notion-48.png'
 import Github from '../../assets/icons/icons8-github-48.png'
@@ -7,9 +9,9 @@ import Github from '../../assets/icons/icons8-github-48.png'
 const Main = () => {
   return (
     <div>
-      <div className='h-screen w-full bg-brightGray px-36 flex items-start pt-24'>
+      <div className='h-screen w-full bg-brightGray px-36 flex items-center pb-10'>
         <div className='w-full flex justify-between items-center'>
-          <div className='w-1/2 flex flex-col gap-24'>
+          <div className='w-full flex flex-col gap-24'>
             <div className='w-full flex flex-col gap-6'>
               <div className='w-full'>
                 <h1 className='flex flex-col text-3xl font-extrabold leading-10'>
@@ -59,8 +61,8 @@ const Main = () => {
             </div>
           </div>
 
-          <div className='w-3/4 h-full'>
-            <img className='w-full' src={Office} alt="office-culture" />
+          <div className='w-full h-2/5'>
+            <img className='w-96' src={Freelance} alt="office-culture" />
           </div>
         </div>
       </div>

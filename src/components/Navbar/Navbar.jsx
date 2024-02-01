@@ -27,8 +27,8 @@ const Navbar = () => {
                     </div>
                     <div>
                         <button className='text-white flex gap-2 items-center px-6 py-2 bg-darkGreen rounded-full border-none'>
-                            <span>+</span>
-                            <span>Post a job</span>
+                            <span className='font-black text-2xl'>+</span>
+                            <span className='font-semibold'>Post a job</span>
                         </button>
                     </div>
                 </div>

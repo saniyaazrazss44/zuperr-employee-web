@@ -14,6 +14,7 @@ export default {
         brightGray: "#E3E8E7",
         darkGreen: "#047356",
         lightGreen: "#7AAE3B",
+        cardColor: "#FEE7DF",
       }
     },
   },
