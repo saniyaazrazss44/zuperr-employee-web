@@ -9,7 +9,7 @@ import Github from '../../assets/icons/icons8-github-48.png'
 const Main = () => {
   return (
     <div>
-      <div className='h-full w-full bg-brightGray px-36 pt-16 pb-24 flex items-center'>
+      <div className='mt-14 pt-24 h-full w-full bg-brightGray px-36 pb-24 flex items-center'>
         <div className='w-full flex justify-between items-center'>
           <div className='w-full flex flex-col gap-24'>
             <div className='w-full flex flex-col gap-6'>
@@ -24,7 +24,7 @@ const Main = () => {
                 <p>Company reviews, Salaries, Interviews, Jobs</p>
               </div>
 
-              <div className='w-full flex items-center relative'>
+              <div className='w-full flex items-center relative z-0'>
 
                 <div className='absolute pl-4 flex items-center'>
                   <i className="fa-solid fa-magnifying-glass" style={{ color: "#6D6D64" }}></i>
@@ -63,7 +63,7 @@ const Main = () => {
           </div>
 
           <div className='w-full flex items-center justify-center'>
-            <img className='w-96' src={Freelance} alt="office-culture" />
+            <img className='w-80' src={Freelance} alt="office-culture" />
           </div>
         </div>
       </div>

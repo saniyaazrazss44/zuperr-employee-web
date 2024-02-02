@@ -29,12 +29,12 @@ const MainContent = () => {
                         <div className='w-1/2 flex flex-col gap-10'>
                             <div className='flex flex-col gap-3'>
                                 <h1 className='font-black text-2xl'>
-                                    For Employers
+                                    For Candidate
                                 </h1>
-                                <p className='text-sm font-semibold'>Find professionals from around the world and across all skills.</p>
+                                <p className='text-sm font-semibold'>Build your professional profile, find new job opportunities.</p>
                             </div>
                             <div className=''>
-                                <button className='bg-darkGreen rounded-full font-bold px-6 py-2 text-white'>Post jobs for free</button>
+                                <button className='bg-darkGreen rounded-full font-bold px-6 py-2 text-white'>Upload your CV</button>
                             </div>
                         </div>
                         <div className='w-1/2'>
