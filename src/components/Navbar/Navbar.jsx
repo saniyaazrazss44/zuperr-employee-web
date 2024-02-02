@@ -26,7 +26,7 @@ const Navbar = () => {
                         <h3 className='cursor-pointer text-dimGrayShade text-sm'>Login</h3>
                     </div>
                     <div>
-                        <button className='text-white flex gap-2 items-center px-6 py-2 bg-darkGreen rounded-full border-none'>
+                        <button className='text-white flex gap-2 items-center justify-center px-6 py-2 bg-darkGreen rounded-full border-none'>
                             <span className='font-black text-2xl'>+</span>
                             <span className='font-semibold'>Post a job</span>
                         </button>

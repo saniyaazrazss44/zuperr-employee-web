@@ -9,7 +9,7 @@ import Github from '../../assets/icons/icons8-github-48.png'
 const Main = () => {
   return (
     <div>
-      <div className='h-screen w-full bg-brightGray px-36 flex items-center pb-10'>
+      <div className='h-full w-full bg-brightGray px-36 pt-16 pb-24 flex items-center'>
         <div className='w-full flex justify-between items-center'>
           <div className='w-full flex flex-col gap-24'>
             <div className='w-full flex flex-col gap-6'>
@@ -24,20 +24,21 @@ const Main = () => {
                 <p>Company reviews, Salaries, Interviews, Jobs</p>
               </div>
 
-              <div>
+              <div className='w-full flex items-center relative'>
 
-                <form>
-                  <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-                  <div className="relative">
-                    <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                      <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                      </svg>
-                    </div>
-                    <input type="search" id="default-search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Job Title or Keywords" required />
-                    <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-darkGreen focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 ">Search</button>
+                <div className='absolute pl-4 flex items-center'>
+                  <i className="fa-solid fa-magnifying-glass" style={{ color: "#6D6D64" }}></i>
+                </div>
+
+                <input type="search" placeholder='Job title or keywords' className='pl-12 rounded-full h-16 w-full border-none' />
+
+                <div className='flex absolute w-full pr-4 items-center justify-end'>
+                  <span><i className="fa-solid fa-location-dot" style={{ color: "#6D6D64" }}></i></span>
+                  <span className='pl-2'>All Location</span>
+                  <div className='pl-6'>
+                    <button className='bg-darkGreen text-white px-8 py-3 text-sm rounded-full'>Search</button>
                   </div>
-                </form>
+                </div>
 
               </div>
 
@@ -61,7 +62,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className='w-full h-2/5'>
+          <div className='w-full flex items-center justify-center'>
             <img className='w-96' src={Freelance} alt="office-culture" />
           </div>
         </div>

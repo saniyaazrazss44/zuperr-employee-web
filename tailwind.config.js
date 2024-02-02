@@ -15,6 +15,8 @@ export default {
         darkGreen: "#047356",
         lightGreen: "#7AAE3B",
         cardColor: "#FEE7DF",
+        cardBg: "#F9F9F9",
+        cardText: "#B7D9CF",
       }
     },
   },
