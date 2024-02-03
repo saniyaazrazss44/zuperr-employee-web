@@ -9,7 +9,7 @@ import Github from '../../assets/icons/icons8-github-48.png'
 const Main = () => {
   return (
     <div>
-      <div className='mt-14 pt-24 h-full w-full bg-brightGray px-36 pb-24 flex items-center'>
+      <div className='pt-4 h-screen w-full bg-mainBgLightBlue px-36 pb-24 flex items-center'>
         <div className='w-full flex justify-between items-center'>
           <div className='w-full flex flex-col gap-24'>
             <div className='w-full flex flex-col gap-6'>
@@ -36,14 +36,14 @@ const Main = () => {
                   <span><i className="fa-solid fa-location-dot" style={{ color: "#6D6D64" }}></i></span>
                   <span className='pl-2'>All Location</span>
                   <div className='pl-6'>
-                    <button className='bg-darkGreen text-white px-8 py-3 text-sm rounded-full'>Search</button>
+                    <button className='bg-btnBlue text-white px-8 py-3 text-sm rounded-full'>Search</button>
                   </div>
                 </div>
 
               </div>
 
               <div>
-                <p className='flex flex-col text-sm'>
+                <p className='flex flex-col text-sm leading-7'>
                   <span>Popular Searches :</span>
                   <span className='font-bold'>Data Management, Marketing Manager, Customer Support</span>
                 </p>
@@ -62,8 +62,10 @@ const Main = () => {
             </div>
           </div>
 
-          <div className='w-full flex items-center justify-center'>
-            <img className='w-80' src={Freelance} alt="office-culture" />
+          <div className='w-full relative flex items-center justify-center'>
+            <div className='w-96 h-96 bg-white overflow-hidden rounded-full flex items-center justify-center'>
+              <img className='absolute lg:w-1/2 xl:w-2/3' src={Freelance} alt="office-culture" />
+            </div>
           </div>
         </div>
       </div>

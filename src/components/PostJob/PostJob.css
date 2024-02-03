@@ -1,0 +1,6 @@
+.main_post {
+    background-image: url('../../assets/images/job-interview.jpg');
+    background-position: center center;
+    background-size: 100%;
+    object-fit: contain;
+}

@@ -17,7 +17,7 @@ const MainContent = () => {
                                 <p className='text-sm font-semibold'>Find professionals from around the world and across all skills.</p>
                             </div>
                             <div className=''>
-                                <button className='bg-darkGreen rounded-full font-bold px-6 py-2 text-white'>Post jobs for free</button>
+                                <button className='bg-btnBlue rounded-full font-bold px-6 py-2 text-white'>Post jobs for free</button>
                             </div>
                         </div>
                         <div className='w-1/2'>
@@ -34,7 +34,7 @@ const MainContent = () => {
                                 <p className='text-sm font-semibold'>Build your professional profile, find new job opportunities.</p>
                             </div>
                             <div className=''>
-                                <button className='bg-darkGreen rounded-full font-bold px-6 py-2 text-white'>Upload your CV</button>
+                                <button className='bg-btnBlue rounded-full font-bold px-6 py-2 text-white'>Upload your CV</button>
                             </div>
                         </div>
                         <div className='w-1/2'>

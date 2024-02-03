@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './components/Home/Home'
+import PostJob from './components/PostJob/PostJob'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/post-job" element={<PostJob />} />
       </Routes>
     </BrowserRouter>
   )
