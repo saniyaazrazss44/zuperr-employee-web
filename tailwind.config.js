@@ -19,6 +19,7 @@ export default {
         cardText: "#B7D9CF",
         btnBlue: '#2645B5',
         btnDarkBlue: '#1a307e',
+        placeholderBg: '#F0F3F6',
       }
     },
   },
