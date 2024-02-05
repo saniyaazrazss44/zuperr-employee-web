@@ -1,6 +1,7 @@
 import React from 'react'
 import './PostJob.css'
 import Navbar from '../Navbar/Navbar'
+import PostJobMain from './PostJobMain/PostJobMain'
 
 const PostJob = () => {
     return (
@@ -14,6 +15,7 @@ const PostJob = () => {
                     </h3>
                 </div>
             </div>
+            <PostJobMain />
         </div>
     )
 }
